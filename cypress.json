@@ -1,0 +1,9 @@
+{
+    "integrationFolder": "test/integration",
+    "fixturesFolder": "test/fixtures",
+    "supportFile": false,
+    "defaultCommandTimeout": 10000,
+    "screenshotsFolder": "test/screenshots",
+    "pluginsFile": false,
+    "video": false
+}

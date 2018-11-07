@@ -2,7 +2,8 @@
     "extends": [
         "eslint-config-airbnb",
         "plugin:flowtype/recommended",
-        "plugin:jest/recommended"
+        "plugin:jest/recommended",
+        "plugin:cypress/recommended"
     ],
     "globals": {
         "LOCAL": true,
@@ -10,7 +11,8 @@
     },
     "env": {
         "browser": true,
-        "jest": true
+        "jest": true,
+        "cypress/globals": true
     },
     "rules": {
         "import/prefer-default-export": 0,
@@ -38,12 +40,13 @@
         "import",
         "react",
         "jest",
-        "flowtype"
+        "flowtype",
+        "cypress"
     ],
     "settings": {
         "import/resolver": {
             "babel-module": {}
-          },
+        },
         "import/ignore": [
             "\\.(scss|less|css)$"
         ]

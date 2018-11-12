@@ -38,7 +38,7 @@ const Copy = styled.div`
 `;
 
 const Footer = ({ opened, toggle }: Props) => (
-    <Wrapper>
+    <Wrapper data-test="footer">
         <Copy title={COMMITHASH}>&copy; {getYear(new Date())}</Copy>
         <StyledLink href="http://satoshilabs.com" isGreen>SatoshiLabs</StyledLink>
         <StyledLink href="/assets/tos.pdf" isGreen>Terms</StyledLink>

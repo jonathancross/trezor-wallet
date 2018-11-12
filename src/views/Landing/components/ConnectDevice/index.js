@@ -106,7 +106,7 @@ class ConnectDevice extends PureComponent<Props> {
     render() {
         return (
             <div>
-                <Title>
+                <Title data-test="landing-main-title">
                     <H2 claim>The private bank in your hands.</H2>
                     <P>Trezor Wallet is an easy-to-use interface for your Trezor.</P>
                     <P>Trezor Wallet allows you to easily control your funds, manage your balance and initiate transfers.</P>

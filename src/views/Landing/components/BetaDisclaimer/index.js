@@ -67,7 +67,7 @@ const BetaDisclaimer = (props: { close: () => void }) => (
                 />
                 Please note that the <i>Trezor Beta Wallet</i> might be collecting anonymized usage data, especially error logs, for development purposes. The <i>Trezor Wallet</i> does not log any data.
             </StyledP>
-            <StyledButton onClick={props.close}>OK, I understand</StyledButton>
+            <StyledButton data-test="beta-disclaimer-button" onClick={props.close}>OK, I understand</StyledButton>
         </ModalWindow>
     </Wrapper>
 );

@@ -59,7 +59,7 @@ const A = styled.a`
 `;
 
 const Header = (): React$Element<string> => (
-    <Wrapper>
+    <Wrapper data-test="top-menu">
         <LayoutWrapper>
             <Left>
                 <NavLink to="/">

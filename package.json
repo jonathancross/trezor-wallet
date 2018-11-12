@@ -94,6 +94,7 @@
         "babel-preset-jest": "^23.2.0",
         "babel-preset-react": "^6.24.1",
         "css-loader": "0.28.11",
+        "cypress-image-snapshot": "^2.2.1",
         "eslint": "^4",
         "eslint-config-airbnb": "^17.0.0",
         "eslint-import-resolver-babel-module": "^4.0.0",

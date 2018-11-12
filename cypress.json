@@ -1,9 +1,10 @@
 {
     "integrationFolder": "test/integration",
     "fixturesFolder": "test/fixtures",
-    "supportFile": false,
+    "pluginsFile": "test/plugins/index.js",
+    "supportFile": "test/support/index.js",
     "defaultCommandTimeout": 10000,
     "screenshotsFolder": "test/screenshots",
-    "pluginsFile": false,
-    "video": false
+    "video": false,
+    "trashAssetsBeforeRuns": true
 }

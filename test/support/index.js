@@ -1,1 +1,1 @@
-export const s = elementAttr => `[data-test=${elementAttr}]`;
+import './commands';

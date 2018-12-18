@@ -46,7 +46,7 @@ import type {
     BlockchainEvent,
 } from 'trezor-connect';
 
-import type { RouterAction, LocationState } from 'react-router-redux';
+import type { RouterAction, LocationState } from 'connected-react-router';
 
 export type AcquiredDevice = $Exact<{
     +type: 'acquired',
